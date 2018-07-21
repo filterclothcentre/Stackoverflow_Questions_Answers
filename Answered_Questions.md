@@ -97,7 +97,7 @@ Windows Registry Editor Version 5.00
 
 Replace %1 with %w. 2 registry entries to demonstrate %1 as Copy Files Path and %w as Copy Files Parent Path.
 
-Reference from [Extending Shortcut Menus](https://web.archive.org/web/20111002101214/http://msdn.microsoft.com/en-us/library/windows/desktop/cc144101(v=vs.85).aspx" target="_blank) at the bottom of the page.
+Reference from [Extending Shortcut Menus](https://web.archive.org/web/20111002101214/http://msdn.microsoft.com/en-us/library/windows/desktop/cc144101(v=vs.85).aspx "title" target="_blank") at the bottom of the page.
 
 ```
 %0 or %1  the first file parameter. For example “C:\Users\Eric\Desktop\New Text Document.txt”. Generally this should be in quotes and the applications command line parsing should accept quotes to disambiguate files with spaces in the name and different command line parameters (this is a security best practice and I believe mentioned in MSDN).
@@ -112,7 +112,7 @@ Reference from [Extending Shortcut Menus](https://web.archive.org/web/2011100210
 %v  for verbs that are none implies all, if there is no parameter passed this is the working directory
 %w  the working directory
 ```
-[Microsoft Reference Link](http://msdn.microsoft.com/en-us/library/windows/desktop/cc144101(v=vs.85).aspx" target="_blank)
+[Microsoft Reference Link](http://msdn.microsoft.com/en-us/library/windows/desktop/cc144101(v=vs.85).aspx "title" target="_blank")
 
 
 ## Question 2 ##
